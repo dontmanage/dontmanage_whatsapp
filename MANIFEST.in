@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dontmanage_whatsapp *.css
+recursive-include dontmanage_whatsapp *.csv
+recursive-include dontmanage_whatsapp *.html
+recursive-include dontmanage_whatsapp *.ico
+recursive-include dontmanage_whatsapp *.js
+recursive-include dontmanage_whatsapp *.json
+recursive-include dontmanage_whatsapp *.md
+recursive-include dontmanage_whatsapp *.png
+recursive-include dontmanage_whatsapp *.py
+recursive-include dontmanage_whatsapp *.svg
+recursive-include dontmanage_whatsapp *.txt
+recursive-exclude dontmanage_whatsapp *.pyc
